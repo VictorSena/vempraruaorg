@@ -1,0 +1,112 @@
+/*
+Theme Name: Vem Pra Rua
+Theme URI: http://wordpress.org/
+Description: Decrição site
+Author: Paulo Henrique Tavares
+Version: 1.0
+*/
+/* Reset */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;margin:0;padding:0;font-size:100%}html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}q{quotes:none}q:before,q:after{content:'';content:none}sub,sup,small{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}svg{overflow:hidden}.clearfix:before,.clearfix:after{content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}.clearfix:after,.c16:after{clear:both}.clearfix{zoom:1}a{text-decoration:none}a:focus,a:active,a:hover{outline:0}li{list-style:none}input[type="submit"]{cursor:pointer}
+/* Geral */
+body{background:url(img/back-topo.jpg) repeat-x #fff;color:#333333;font:12px/1.2 "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+#main {position:relative;min-height:100%;z-index:0;}
+* html #main {height: 100%;}
+.geral {padding-bottom:60px;position:relative;width:960px;margin:0 auto;margin-bottom:50px;}
+#conteudo {width:960px;float:left;}
+input {line-height:2;}
+h2, h3 {font-weight:normal;}
+/* CSS3 */
+#pesquisar form, #banner, .box-titulo, .menu_tv img, #compartilhar {-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;overflow:hidden;}
+/* Acessibilidade */
+#acessibilidade {width:100%;height:27px;background:#111111;}
+#opcoes-acessibilidade {width:960px;margin:0 auto;}
+#opcoes-acessibilidade ul {float:right;margin-top:6px;}
+#acessibilidade li {float:left;height:12px;margin-left:20px;}
+#acessibilidade li a {color:#a4a4a4;}
+#ir, #botao-acessibilidade, #contraste {padding-left:15px;}
+#ir {background:url(img/ir.png) left no-repeat;}
+#botao-acessibilidade {background:url(img/acessibilidade.png) left no-repeat;padding-left:15px;}
+#opcoes-acessibilidade ul li ul {margin:0;}
+#opcoes-acessibilidade ul li ul li {margin-left:4px;color:#a4a4a4;}
+#opcoes-acessibilidade ul li ul li a {width:12px;height:12px;display:block;}
+#normal {background:url(img/fonte.png) no-repeat;}
+#aumentar {background:url(img/diminui-fonte.png) no-repeat;}
+#diminuir {background:url(img/aumenta-fonte.png) no-repeat;}
+#contraste {background:url(img/contraste.png) left no-repeat;}
+/* Topo */
+#topo {width:960px;margin:0 auto;height: 140px;}
+#logo {float:left;margin-top:40px;}
+#pesquisar {float:right;}
+#pesquisar form {width:300px;height:28px;border:1px solid #efeeee;margin:50px 0 10px 0;}
+#pesquisar input[type="text"] {border:none;color:#d4d4d4;height:26px;padding-left:15px;width:235px;float:left;}
+#pesquisar input[type="submit"] {width:50px;height:28px;background:#ffa300;border:none;color:#fff;float:right;-moz-border-radius:0 5px 5px 0;-webkit-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;}
+/* Menu */
+#menu {width:100%;height:43px;float:left;background:url(img/back-menu.jpg) repeat-x;}
+#menu ul {width:960px;margin:12px auto 0 auto;}
+#menu li {float:left;}
+#menu li:first-child a {border:none;}
+#menu li a {color:#fff;font-size:16px;border-left:1px solid #282828;padding:8px 17px}
+.ativo {margin-top:-17px;}
+.ativo a {float:left;background:#ffa300;height:38px;line-height:2.5;color:#fff!important;border:none!important;text-shadow:1px 1px 0 #000;}
+.hover-esq, .hover-dir {width:7px;height:54px;background:url(img/hover-esq.png);float:left;}
+.hover-dir {background:url(img/hover-dir.png);} 
+/* Conteúdo */
+#conteudo {margin-top:30px;}
+#cont-esq {width:630px;float:left;}
+#banner {width:630px;height:330px;position:relative;-moz-box-shadow:inset 0 0 18px #404040;}
+.box-titulo {width:100%;float:left;background:url(img/box-titulo.png);height:43px;border-top:3px solid #ffa300;}
+.box-titulo h2 {margin:7px 0 0 20px;font-size:22px;float:left;}
+.box-titulo a {color:#333333}
+.box-titulo .ver-mais {float:right;margin:15px 20px 0 0;text-decoration:underline;}
+/* Últimas Noticias */
+#ult-noticias {width:630px;float:left;margin-top:30px;}
+#ult-noticias span {color:#7b7b7b;text-transform:uppercase;margin-bottom:10px;display:block;}
+#ult-noticias a {color:#333333;}
+#ult-noticias a:hover {text-decoration:underline;}
+#ult-noticias p {font-size:13px;}
+#nivel1, #nivel2, #nivel3, #nivel4 {width:630px;float:left;margin-top:20px;}
+#nivel1 {border-bottom:1px dashed #c1c1c0;padding-bottom:20px;}
+#nivel1 h2 {font-size:24px;margin-bottom:10px;}
+#nivel2 li:first-child, #nivel3 li:first-child {margin-right:30px;}
+#nivel2 li, #nivel3 li {float:left;width:300px;border-bottom:1px dashed #c1c1c0;padding-bottom:20px;}
+#nivel2 span {margin-top:10px;}
+#nivel2 h2 {font-size:20px;}
+#nivel3 span {margin-top:10px;}
+#nivel3 h2 {font-size:16px;}
+#nivel4 li:first-child {margin-left:0;}
+#nivel4 li {width:142px;float:left;margin-left:20px;}
+#nivel4 span {margin-top:10px;}
+#nivel4 h2 {font-size:14px;}
+/* Conteúdo Direita */
+#cont-dir {width:300px;float:left;margin-left:30px;}
+#video {margin:10px 0 2px 0;float:left;}
+.menu_tv {position:relative;overflow:hidden;width:260px;height:43px;float:left;}
+.menu_tv .items {width:20000em;position:absolute;}
+.menu_tv li {list-style-image:none!important;float:left;margin-left:10px;}
+.menu_tv img {width:55px;height:43px;}
+.videos .browse {width:20px;height:43px;display:block;display:block;cursor:pointer;float:left;}
+.videos .prev {background:url(img/voltar.png) no-repeat;}
+.videos .next {background:url(img/avancar.png) no-repeat;}
+.fb-like-box {margin-top:30px;}
+/* Conteúdo Interna */
+#compartilhar {background:url(img/box-titulo.png);;border-bottom:1px solid #ffa300;width:610px;float:left;padding:10px;margin-bottom:20px;}
+#compartilhar small {float:left;font-size:12px;color:#333333;font-family:Arial;margin-top:4px;}
+#social {float: right;}
+#compartilhar #google, #compartilhar #twitter, #compartilhar #facebook {float:left;}
+#cont-interna h2 {font-size:35px;color:#333333;margin-bottom:10px;}
+#cont-interna h3 {font-family:Arial;color:#929292;font-size:20px;font-weight:normal;margin-bottom:20px;}
+#cont-interna h4 {font-size:25px;margin-bottom:15px;}
+#cont-interna #img-single {width:230px;float:left;margin:0 20px 10px 0;}
+#cont-interna #img-single span {background:#f8f8f8;display:block;border-bottom:1px solid #e3e2e2;text-align:center;padding:5px 10px;font-family:Arial;font-size:11px;}
+#cont-interna p {font:14px/1.5 Arial, Helvetica, sans-serif;margin-bottom:20px;}
+.single #cont-interna ul {margin-left:15px;}
+.single #cont-interna ul li {list-style:disc;font:14px/1.5 Arial, Helvetica, sans-serif;}
+#cont-interna a {color:#929292;text-decoration:underline;}
+/* Rodape */
+#rodape {background:#111111;width:100%;height:60px;position:relative;overflow:hidden;margin-top:-60px;border-top:2px solid #51514F;}
+#cont-rodape {width:960px;margin:0 auto;color:#fff;font-size:14px;}
+#cont-rodape img {float:left;margin-top:7px;}
+#cont-rodape a {color:#fff;}
+#cont-rodape ul {float:left;margin:20px 0 0 10px;}
+#cont-rodape li:first-child {border:none;}
+#cont-rodape li {border-left:1px solid #fff;float:left;padding:0 10px;}
